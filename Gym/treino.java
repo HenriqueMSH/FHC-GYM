@@ -1,5 +1,7 @@
 package Gym;
 
+import java.util.Arrays;
+
 public class treino {
     private String[] treinos = { "a", "b", "c", "d", "e" };
     private int[] cont = new int[5];
@@ -29,4 +31,11 @@ public class treino {
             }
         } while (escolha < 1 && escolha > 5);
     }
+
+    @Override
+    public String toString() {
+        return "Treinos /n treino " + treinos[1] + ": " + cont[1] + "\n treino " + treinos[2] + ": " + cont[2] + "\n treino " + treinos[3] + ": " + cont[3] + "\n treino " + treinos[4] + ": " + cont[4] + "\n treino " + treinos[5] + ": " + cont[5];
+    }
+
+    
 }
