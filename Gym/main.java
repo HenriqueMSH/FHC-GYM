@@ -9,5 +9,7 @@ public class main {
         cliente c1 = new cliente("caio", "123", 22, 3251);
         treino t1 = new treino();
 
+        treino.contaTreino();
+
     }
 }

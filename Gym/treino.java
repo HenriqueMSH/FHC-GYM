@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class treino {
     protected String[] treinos = { "a", "b", "c", "d", "e" };
-    protected int[] cont = new int[5];
+    protected static int[] cont = new int[5];
 
-    public void contaTreino() {
+    public static void contaTreino() {
         Scanner sc = new Scanner(System.in);
         int escolha;
         System.out.println("INFORME O TREINO DESEJADO: \n 1 'A - Peito', \n 2 'B - Costas, \n 3 'C - Abdômen, \n 4 'D - Perna \n 5 'E - Ombro");
