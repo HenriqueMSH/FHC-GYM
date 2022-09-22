@@ -6,6 +6,4 @@ public class cliente extends pessoa {
         super(nome, cpf, idade , matricula);
     }
 
-    
-    
 }
