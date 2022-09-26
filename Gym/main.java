@@ -1,5 +1,4 @@
 package Gym;
-
 import java.util.Scanner;
 
 public class main {
