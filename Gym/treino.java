@@ -4,6 +4,12 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class treino {
+    private String id;
+    private String autor;
+    private double valor;
+    private int estoque;
+
+    /* 
     protected String[] treinos = { "a", "b", "c", "d", "e" };
     protected static int[] cont = new int[5];
 
@@ -46,5 +52,5 @@ public class treino {
                 + "\n treino " + treinos[3] + ": " + cont[3] + "\n treino " + treinos[4] + ": " + cont[4] + "\n treino "
                 + treinos[5] + ": " + cont[5];
     }
-
+*/
 }
