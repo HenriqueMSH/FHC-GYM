@@ -22,19 +22,19 @@ public class treino {
             escolha = sc.nextInt();
             switch (escolha) {
                 case 1:
-                    cont[1]++;
+                    cont[0]++;
                     break;
                 case 2:
-                    cont[2]++;
+                    cont[1]++;
                     break;
                 case 3:
-                    cont[3]++;
+                    cont[2]++;
                     break;
                 case 4:
-                    cont[4]++;
+                    cont[3]++;
                     break;
                 case 5:
-                    cont[5]++;
+                    cont[4]++;
                     break;
                 case 0:
                     System.out.println("saiu");
