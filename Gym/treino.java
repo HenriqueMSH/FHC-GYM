@@ -9,17 +9,17 @@ public class treino {
     private double valor;
     private int estoque;
 
-    /* 
+     
     protected String[] treinos = { "a", "b", "c", "d", "e" };
     protected static int[] cont = new int[5];
 
     public static void contaTreino() {
         Scanner sc = new Scanner(System.in);
         int escolha;
-        System.out.println("INFORME O TREINO DESEJADO: \n 1 'A - Peito', \n 2 'B - Costas, \n 3 'C - Abdômen, \n 4 'D - Perna \n 5 'E - Ombro");
-        escolha = sc.nextInt();
-
+        
         do {
+            System.out.println("INFORME O TREINO DESEJADO: \n 1 'A - Peito', \n 2 'B - Costas, \n 3 'C - Abdômen, \n 4 'D - Perna \n 5 'E - Ombro");
+            escolha = sc.nextInt();
             switch (escolha) {
                 case 1:
                     cont[1]++;
@@ -52,5 +52,5 @@ public class treino {
                 + "\n treino " + treinos[3] + ": " + cont[3] + "\n treino " + treinos[4] + ": " + cont[4] + "\n treino "
                 + treinos[5] + ": " + cont[5];
     }
-*/
+
 }
