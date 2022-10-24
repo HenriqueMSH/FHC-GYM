@@ -12,12 +12,12 @@ public class treino {
     protected String[] treinos = { "a", "b", "c", "d", "e" };
     protected static int[] cont = new int[5];
 
-    public static void contaTreino() throws MuitaGenteException {
+    public static void contaTreino() throws RuntimeException{
         Scanner sc = new Scanner(System.in);
         int escolha;
 
         if (cont[0] > 100 || cont[1] > 100 || cont[2] > 100 || cont[3] > 100 || cont[4] > 100) {
-            throw new MuitaGenteException("Mais de 100 pessoa no treino");
+            throw new RuntimeException("Mais de 100 pessoas nesse treino");
         } else {
             do {
                 System.out.println(
